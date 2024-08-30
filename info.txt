@@ -1,0 +1,16 @@
+commands used
+npm init -y
+
+npm install express multer mysql2 sharp bull redis axios
+npm install nodemon --save-dev
+
+Testing the APIs with Postman
+
+    Upload API: Send a POST request to http://localhost:3000/upload with a CSV file as form-data.
+    Status API: Send a GET request to http://localhost:3000/status/{requestId} to check the processing status.
+
+
+server info 
+Start your Redis server with redis-server.
+Run your Node.js server with nodemon or node index.js.
+
